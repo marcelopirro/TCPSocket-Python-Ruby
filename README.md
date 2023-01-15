@@ -1,4 +1,5 @@
 --Overview
+
 Given the two repositories Client and Server.
 Both repositories have the program related to them, that is, in the Client repository we have the client program,
 already in the Server repository we have the server program.
@@ -11,6 +12,7 @@ If you go inside the Client repository you will see two files: the Client progra
 the same thing will happen if you enter the Server repository, it will have the Server program in python and an 'a.txt' file, also used for testing.
 
 ---Running
+
 First you must run the server and then the client, once connected the client will have 4 options:
     (1) Upload: upload a file to the server
     (2) List: List of files that are present in the server repository
@@ -18,6 +20,7 @@ First you must run the server and then the client, once connected the client wil
     (0) Logout: the client is disconnected from the server
 
 --- Testing
+
 To test the List command, the client must select option '2', then it will return a list containing
 the files present on the server, in this case for example, './a.txt ./Server.py' would be returned because initially
 the repository has these two files
